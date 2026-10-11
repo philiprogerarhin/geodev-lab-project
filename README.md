@@ -5,3 +5,4 @@ Which areas in Accra are most susceptible to flooding, and which communities are
 
 Month 2: Preparation of environment. early python.
 week 5: i setup python, vs code and the terminal, hello.py runs.
+Week 6: set up the project with uv and added pandas. check.py prints the pandas version.
