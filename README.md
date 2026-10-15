@@ -23,6 +23,14 @@ An interactive web map showing healthcare facilities, population distribution, a
 Week 2: Data Collection and Exploration
 Downloaded Ghana OpenStreetMap data and extracted healthcare facilities within Greater Accra using QGIS. Downloaded WorldPop 2025 population data and clipped it to the Greater Accra boundary. Explored the datasets in QGIS and documented their feature counts, geometry types, key attributes, and data quality observations in data-note.md.
 
+Week 3: Data Preparation and Quality Checks
+
+Prepared the healthcare facilities and population datasets for Greater Accra using QGIS. Clipped the healthcare facilities and population raster to the Greater Accra boundary and used EPSG:32630 (WGS 84 / UTM zone 30N) as the working coordinate reference system.
+
+Checked the healthcare facilities layer using QGIS's Check Validity tool. All 790 features were valid, with zero invalid features and zero geometry errors. Identified 112 healthcare facility records with missing names. The population raster contains 246,551 valid cells and 878,845 NoData cells, which have been flagged for consideration during analysis.
+
+The prepared healthcare facilities and Greater Accra boundary are saved as GeoPackages. Detailed quality-check results are documented in week3-quality-checks.md.
+
 
 
 Month 2: Preparation of environment. early python.
