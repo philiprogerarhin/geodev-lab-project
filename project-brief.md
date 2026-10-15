@@ -2,30 +2,38 @@
 
 ## The question
 
-Which areas in Accra are most susceptible to flooding, and which communities have the greatest population exposure to flood risk?
+How are healthcare facilities distributed across Greater Accra, and which populated areas are relatively far from mapped healthcare facilities?
 
 ## Why it matters
 
-Flooding affects communities, homes and infrastructure in Accra. The results could help planners and disaster-management officers identify areas that need more attention for flood-risk reduction and preparedness.
+Access to healthcare is important for community well-being and regional development. Understanding where healthcare facilities are located in relation to populated areas can help identify places that may face geographical barriers to accessing healthcare services.
 
-## The data I need
+The findings could support preliminary planning by highlighting areas that may require closer examination when decisions are made about healthcare facility locations and service provision. The project will also demonstrate how GIS and spatial data can be used to investigate a practical development issue in Ghana.
 
-- Elevation — SRTM 30 m — GeoTIFF — about 25 MB per 1° tile
-- Rainfall — CHIRPS — GeoTIFF — about 55 MB per annual raster
-- Built-up area — WorldPop — GeoTIFF — about 14 MB for Ghana
-- Population — WorldPop — GeoTIFF — about 34 MB for Ghana
-- Waterways and settlements — OpenStreetMap Ghana — GeoPackage — about 311 MB for Ghana
-- Administrative boundaries — GADM Ghana — GeoJSON — about 0.9 MB
+Dataset 1: Healthcare facilities
 
-## Where each dataset comes from
+Source: Geofabrik — Ghana OpenStreetMap data
 
-- Elevation — USGS SRTM
-- Rainfall — Climate Hazards Center CHIRPS
-- Built-up area — WorldPop
-- Population — WorldPop
-- Waterways and settlements — OpenStreetMap / Geofabrik Ghana
-- Administrative boundaries — GADM
+Link: https://download.geofabrik.de/africa/ghana.html
+
+Intended use: Extract mapped healthcare facilities and, if needed, relevant road and settlement data for Greater Accra.
+
+Dataset 2: Population distribution
+
+Source: WorldPop
+
+Link: https://hub.worldpop.org/
+
+Intended use: Find a suitable population dataset covering Greater Accra and use it to examine where people live in relation to healthcare facilities.
+
+Dataset 3: Administrative boundary
+
+Source: Humanitarian Data Exchange (HDX)
+
+Link: https://data.humdata.org/
+
+Intended use: Search for a suitable administrative boundary dataset for Greater Accra to define the study area and clip other datasets.
 
 ## What I would build
 
-A flood susceptibility map for Accra showing areas with different levels of flood risk. I would overlay population and settlement data to identify areas where high flood susceptibility affects larger numbers of people and communities.
+I will build an interactive web-based GIS application that maps healthcare facilities across Greater Accra and shows their locations in relation to population distribution. The application will help identify populated areas that are relatively far from mapped healthcare facilities. Over the GeoDev Lab Africa programme, I will develop it using spatial analysis, a database, an API and an interactive map.
