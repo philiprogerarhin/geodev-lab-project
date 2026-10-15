@@ -1,5 +1,25 @@
 # geodev-lab-project
-Which areas in Accra are most susceptible to flooding, and which communities are most vulnerable to flood risk?
+Month 1
+# Mapping Access to Healthcare Facilities in Greater Accra, Ghana
+
+## Project Overview
+This project will use GIS to map healthcare facilities and population distribution in Greater Accra, Ghana.
+
+## Why It Matters
+The project will help identify populated areas that are relatively far from healthcare facilities, supporting better healthcare planning.
+
+## Research Question
+Which populated areas in Greater Accra are relatively far from mapped healthcare facilities?
+
+## What I Will Build
+An interactive web map showing healthcare facilities, population distribution, and potential geographic gaps in access.
+
+## Data Sources
+- [Geofabrik](https://download.geofabrik.de/africa/ghana.html) – healthcare facility data
+- [WorldPop](https://hub.worldpop.org/) – population data
+- [HDX](https://data.humdata.org/) – administrative boundaries
+
+
 
 
 
