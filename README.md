@@ -1,5 +1,6 @@
 # geodev-lab-project
 Month 1
+week 1
 # Mapping Access to Healthcare Facilities in Greater Accra, Ghana
 
 ## Project Overview
@@ -19,7 +20,8 @@ An interactive web map showing healthcare facilities, population distribution, a
 - [WorldPop](https://hub.worldpop.org/) – population data
 - [HDX](https://data.humdata.org/) – administrative boundaries
 
-
+Week 2: Data Collection and Exploration
+Downloaded Ghana OpenStreetMap data and extracted healthcare facilities within Greater Accra using QGIS. Downloaded WorldPop 2025 population data and clipped it to the Greater Accra boundary. Explored the datasets in QGIS and documented their feature counts, geometry types, key attributes, and data quality observations in data-note.md.
 
 
 
