@@ -37,3 +37,6 @@ The prepared healthcare facilities and Greater Accra boundary are saved as GeoPa
 week 5: i setup python, vs code and the terminal, hello.py runs.
 Week 6: set up the project with uv and added pandas. check.py prints the pandas version.
 Week 7: analyse.py reads wards.csv, converts each area and classifies each ward.
+**Week 8: Inspecting real data with Python**
+
+Created `inspect_data.py` to read and inspect the Month 1 `wards.csv` dataset using `csv.DictReader`. Practised handling missing values, commas in numbers, and debugging with print statements.
