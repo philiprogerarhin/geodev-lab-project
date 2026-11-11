@@ -44,3 +44,6 @@ Week 7: analyse.py reads wards.csv, converts each area and classifies each ward.
 ## Month 2 reflection
 
 The idea that finally clicked this month was the difference between print and return: a function that only prints leaves the variable as None, so now my functions return a value and I print it separately. Splitting one long block of code into small functions that each do one job also made my code much easier to read and fix. The part that is still fuzzy is how Python decides what counts as a number, for example mixed columns where some cells are text and some are digits. My capstone shows that my Month 1 data has 790 healthcare facilities, mostly pharmacies, but 112 have no name, and one column says "yes" on every row, so it needs more cleaning before I can trust it for analysis.
+
+## Month 3: Geospatial python Automation
+week 10: Geopandas. loaded, checked, joined and maped my [layer name] in code
