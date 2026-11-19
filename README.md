@@ -47,3 +47,4 @@ The idea that finally clicked this month was the difference between print and re
 
 ## Month 3: Geospatial python Automation
 week 10: Geopandas. loaded, checked, joined and maped my [layer name] in code
+week 11: CRS and spatial operations. Reprojection to EPSG: 32631 and ensured facility reach
